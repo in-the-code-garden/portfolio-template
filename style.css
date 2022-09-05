@@ -1,0 +1,157 @@
+body {
+    font-family: 'Imprima', sans-serif;
+
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+}
+
+#header-main { 
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 3em;
+}
+
+/* section {
+    margin: auto 1em 1em 1em;
+} */
+
+/* article {
+    margin: auto 1em 1em 1em;
+} */
+
+.banner {
+    background-color: #31A68A;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.banner h1 {
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    color: #31A68A;
+    font-size: 18px
+}
+
+header {
+    margin: 0px 50px 0px 20px;
+    padding: 0px 0px 0px 30px;
+}
+
+#header-blurb {
+    padding-right: 70px;
+}
+
+#header-contact {
+    background-color: #31A68A;
+    padding: 5px 5px 20px 20px;
+    max-width: 180px;
+}
+
+#header-contact a {
+    text-decoration: none;
+    color: rgb(67, 66, 66)
+}
+
+#header-contact a:hover {
+    color: #1e6554;
+}
+
+#header-contact i {
+    color: rgb(67, 66, 66)
+    
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.highlight {
+    color: #31A68A;
+    font-weight: bold;
+}
+
+img {
+    max-width: 300px;
+    max-height: 400px;
+    margin: auto;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
+
+}
+
+/* h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+} */
+
+/* h2 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 1em;
+} */
+/* 
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+} */
+
+ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0px 15px 15px;
+  }
+
+ul li::before {
+    content: "\2022";
+    color: #31A68A;
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+main {
+    padding: 0px 40px 40px 40px; 
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
+
+.link-btn {
+    background-color: #31A68A;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 40px;
+    text-decoration: None;
+    color:rgb(67, 66, 66);
+}
+
+.link-btn:hover {
+    background-color: #1e6554;
+    color: white;
+}
